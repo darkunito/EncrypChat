@@ -16,6 +16,11 @@ $(function() {
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('.chat.page'); // The chatroom page
 
+  //Variables nuevas
+  var rsa = require("rsa-big-integer.js");
+  var BigInt = require("big-integer-scii.js");
+  var keys = rsa.generateKeys(512);
+
   // Prompt for setting a username
   var username;
   var connected = false;

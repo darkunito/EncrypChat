@@ -1,7 +1,9 @@
 
-# Socket.IO Chat
+# EncrypChat
 
-A simple chat demo for socket.io
+Smart Cities II Proyecto
+Universitat Politècnica de Catalunya
+eetac.upc.edu
 
 ## How to use
 

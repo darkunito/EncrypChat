@@ -1,13 +1,16 @@
 {
-  "name": "socket.io-chat",
+  "name": "EncrypChat",
   "version": "0.0.0",
   "description": "A simple chat client using socket.io",
   "main": "index.js",
-  "author": "Grant Timmerman",
+  "author": "EETAC-UPC",
   "private": true,
   "license": "BSD",
   "dependencies": {
     "express": "3.4.8",
-    "socket.io": "^1.4.5"
+    "socket.io": "^1.4.5",
+    "big-integer": "",
+    "big-integer-scii": "public/big-integer-scii.js",
+    "sha256": "^0.2.0"
   }
 }
